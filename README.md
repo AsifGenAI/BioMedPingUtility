@@ -49,7 +49,7 @@ Testing TCP port 443 on '8.8.8.8'…
 ✅ TCP port 443 on '8.8.8.8' is OPEN.
 
 🎉 All connectivity checks passed! If the device is still not working, please contact your Clinical Application Team.
-
+```
 ### Scenario 2: Network OK but Server Port Blocked
 ```text
 …gateway & server pings succeed…
@@ -58,4 +58,14 @@ Testing TCP port 443 on '8.8.8.8'…
 ❌ TCP port 443 on '8.8.8.8' is CLOSED or FILTERED.
 
 ✅ Server '8.8.8.8' is reachable. However, connectivity on port 443 cannot be established. Please contact your Network Team with this screenshot.
+```
+### Scenario 3: Network Failure
+```text
+Pinging default gateway (192.168.8.1)…
+❌ Default gateway is NOT reachable.
 
+Pinging server (8.8.8.8)…
+❌ Server '8.8.8.8' is NOT reachable.
+
+❌ Default gateway or server is not reachable. Please contact your Network Team with this screenshot.
+```

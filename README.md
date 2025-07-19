@@ -8,7 +8,7 @@ A simple PowerShell health‑check script for biomedical devices that verifies:
 4. ICMP ping to a hard‑coded server (8.8.8.8)  
 5. TCP port test to the server on port 443
 
-Please change the IP and ports based on your requirement, the give IP address and port is for demonstration purpose only..
+Please change the IP and ports based on your requirement, the given IP address and port is for demonstration purpose only..
 
 Based on the results, it displays one of three scenarios with clear next‑step instructions.
 ---

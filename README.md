@@ -16,7 +16,7 @@ Based on the results, it displays one of three scenarios with clear next‑step 
 ## Prerequisites
 
 - Windows PowerShell (v5.1 or later)  
-- Run **as Administrator** (to access WMI and network adapters)  
+
 
 ---
 

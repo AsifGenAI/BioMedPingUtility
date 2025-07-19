@@ -78,6 +78,11 @@ Pinging server (8.8.8.8)…
 
 ---
 
-## License & Attribution
+## License
 
-This script uses Google Public DNS (``8.8.8.8``) for demonstration only; you may substitut the IP and port with your respective PACS / LIS / Any BioMedicalDeivce Server.  
+This project is licensed under the MIT License.
+
+## Attribution / Demo Notice
+
+This script uses Google Public DNS (8.8.8.8) for demonstration only; you may substitute the IP and port with your respective PACS / LIS / any biomedical device server.
+

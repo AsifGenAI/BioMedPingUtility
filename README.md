@@ -71,3 +71,13 @@ Pinging server (8.8.8.8)…
 
 ❌ Default gateway or server is not reachable. Please contact your Network Team with this screenshot.
 ```
+## Customization
+
+- To target a different server or port, edit the ``$Server`` and ``$TestPort`` variables at the top of the script.  
+- To allow parameterized input instead of hard‑coding, replace those variables with a ``param()`` block.
+
+---
+
+## License & Attribution
+
+This script uses Google Public DNS (``8.8.8.8``) for demonstration only; you may substitut the IP and port with your respective PACS / LIS / Any BioMedicalDeivce Server.  
